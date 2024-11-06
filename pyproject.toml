@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ocr-web"
+version = "0.1.0"
+description = ""
+authors = ["bom1215 <bom1215@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.4"
+pydantic = "^2.9.2"
+pydotenv = "^0.0.7"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.32.0"
+python-multipart = "^0.0.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
