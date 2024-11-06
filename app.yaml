@@ -1,0 +1,6 @@
+runtime: python312 # 사용하고 있는 파이썬 버전
+entrypoint: gunicorn -b :8080 -k uvicorn.workers.UvicornWorker main:app
+
+handlers:
+- url: /.*
+  script: auto
